@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "emitDeclarationOnly": false,
+    "moduleResolution": "node", // ensure Node-compatible resolution for JS users
+    "module": "ES2020",
+    "target": "ES2020"
+  },
+  "include": ["index.ts", "fileRouter.ts"]
+}
