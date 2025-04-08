@@ -2,6 +2,7 @@
   "name": "react-router-rsbuild-plugin",
   "type": "module",
   "module": "dist/index.js",
+  "version": "0.0.1",
   "exports": {
     ".": {
       "import": "./dist/index.js",
